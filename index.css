@@ -1,19 +1,22 @@
-/*======= Create a new universal selector that changes the font color to: #3C373B */
-
+/*======= Create a new universal selector that changes the font color to: #3C373B === DONE*/
+html{
+color: #3c373b;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
-  /*=======  Update the font size to 60px and center the text */
-  font-size: 10px;
+  /*=======  Update the font size to 60px and center the text === DONE*/
+  font-size: 60px;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
   padding: 0 10px;
-  /*=======  Update the font size to 30px */
-  font-size: 10px;
+  /*=======  Update the font size to 30px  === DONE*/
+  font-size: 30px;
 }
 
 /*======= Create a selector for ALL p tags in the site to have the following styles:
@@ -23,26 +26,64 @@ font-family: roboto;
 padding: 10px;
 line-height: 1.4;
 
-*/
+=== DONE */
 
+.pclass1,.pclass2{
+  font-size: 16px;
+font-family: roboto;
+padding: 10px;
+line-height: 1.4;
+}
+
+.pclass1{
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.pclass2{
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: monospace;
+} 
+
+#about{
+  text-align: center;
+}
+
+#catering{
+  text-align: center;
+}
+
+#cookies{
+  text-align: center;
+}
+
+#celebrations{
+  text-align: center;
+}
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
 
   border-radius: 10px;
 
-*/
+=== DONE*/
+.imgsrc{
+  border-radius: 10px;
+}
 
 .content-row {
   display: flex;
 }
 
 .content-row div {
-  /*======= create a margin propery.  Set the value to 20px */
+  /*======= create a margin propery.  Set the value to 20px === DONE*/
+  margin: 20px;
 }
 
 .container {
-  /*======= create a width property. Set the value to 605px */
+  /*======= create a width property. Set the value to 605px === DONE*/
   margin: 0 auto;
+  width: 605px;
 }
 
 .container header nav a {
@@ -54,21 +95,29 @@ line-height: 1.4;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-   /*======= create a background property. Set the value to #F87B99 */
+  background: #F87B99;
+   /*======= create a background property. Set the value to #F87B99 === DONE*/
   
 }
 
 .container header nav a:hover {
-/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. === DONE*/
+background: white;
+color: pink;
 }
 
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
-*/
+=== DONE*/
+.about{
+  margin-top: 20px;
+  
+}
 
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
+  text-align: center;
 }
 
 .contact-section h2 {
@@ -77,8 +126,17 @@ line-height: 1.4;
 }
 
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
-   line-height: 2;
+   line-height: 2 === DONE;
 */
+.contact{
+  line-height: 2;
+}
+
+
+
+.font{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
 footer {
   width: 100%;
@@ -88,7 +146,8 @@ footer {
 
 footer .footer-content { 
   margin: 0 auto; 
-  /*======= create a width property. Set the value to 600px */
+  width: 600px;
+  /*======= create a width property. Set the value to 600px === DONE */
   
 }
 
@@ -105,7 +164,15 @@ footer nav {
   margin: 10px;
   color: black;
   text-decoration: underline;
-*/
+=== DONE*/
+
+.links{
+  color: black;
+  text-decoration: underline;
+  margin: 30px;
+  font-size: 20px;
+}
+
 
 
 footer nav a:first-child {
@@ -114,9 +181,17 @@ footer nav a:first-child {
 
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
-*/
+=== RESEARCH MORE*/
+.links:hover{
+  color: white;
+} 
+
+h3{
+  text-align: center;
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
-   /*======= center the text here */
+  text-align: center;
+   /*======= center the text here === DONE*/
 }
